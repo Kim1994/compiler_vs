@@ -10,13 +10,6 @@
 
 using namespace std;
 
-typedef struct NodeTree{
-	struct NodeTree *node1;
-	struct NodeTree *node2;
-	struct NodeTree *p;
-	char token;
-} NodeTree;
-
 stack<NodeTree> NodeStack;
 stack<char> mark;
 
@@ -80,7 +73,7 @@ void markdo(char a){
 	}
 }
 
-void creattree(string in){
+NodeTree* creattree(string in){
 	istringstream iss(in);
 	char c;
 	iss >> c;
@@ -117,6 +110,8 @@ void creattree(string in){
 	while (!mark.empty()){
 		markdo(mark.top());
 	}
+	NodeTree *re = equalpoint(NodeStack.top());
+	return re;
 }
 
 

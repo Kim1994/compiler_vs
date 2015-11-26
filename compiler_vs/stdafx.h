@@ -11,6 +11,7 @@
 #include <tchar.h>
 #include <iostream>
 #include "regex.h"
+#include "enfa.h"
 using namespace std;
 
 

@@ -27,6 +27,9 @@
     <ClInclude Include="regex.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="enfa.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -36,6 +39,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="regex.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="enfa.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

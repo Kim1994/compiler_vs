@@ -8,7 +8,9 @@ int _tmain(int argc, _TCHAR* argv[])
 {
 	string a;
 	cin >> a;
-	creattree(a);
+	NodeTree *node = creattree(a);
+	vector<enfanode*> enfa = createnfa(node);
+	cout << "done" << endl;
 	return 0;
 }
 
