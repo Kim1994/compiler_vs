@@ -6,6 +6,8 @@
 #include <sstream>
 #include <stack>
 #include <vector>
+#include <map>
+#include <algorithm>
 using namespace std;
 
 struct enfanode;
@@ -25,5 +27,7 @@ typedef struct enfanode{
 
 
 vector<enfanode*> createnfa(NodeTree *nodetree);
+enfanode* enfa2nfa(vector<enfanode*> enfa);
+enfanode* nfa2dfa(enfanode* nfa);
 
 #endif

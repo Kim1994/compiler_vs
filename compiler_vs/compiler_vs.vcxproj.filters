@@ -30,6 +30,9 @@
     <ClInclude Include="enfa.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="ll1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -42,6 +45,12 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="enfa.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ll1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="enfa2dfa.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
